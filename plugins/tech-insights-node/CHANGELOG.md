@@ -1,5 +1,13 @@
 # @backstage/plugin-tech-insights-node
 
+## 0.3.2-next.1
+
+### Patch Changes
+
+- bcc122c46d: The `FactRetriever` model has been extended by adding optional title and description fields, allowing you to display them in the UI.
+- Updated dependencies
+  - @backstage/backend-common@0.14.1-next.3
+
 ## 0.3.2-next.0
 
 ### Patch Changes

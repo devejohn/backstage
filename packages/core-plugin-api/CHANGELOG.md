@@ -1,5 +1,12 @@
 # @backstage/core-plugin-api
 
+## 1.0.4-next.0
+
+### Patch Changes
+
+- a70869e775: Updated dependency `msw` to `^0.43.0`.
+- 2990fff4e5: Enabled the `@backstage/core-plugin-api/alpha` entry point.
+
 ## 1.0.3
 
 ### Patch Changes

@@ -1,5 +1,22 @@
 # @backstage/plugin-tech-insights-backend
 
+## 0.5.0-next.3
+
+### Minor Changes
+
+- 46cfda58aa: **BREAKING**: Update FactRetrieverRegistry interface to be async so that db backed implementations can be passed through to the FactRetrieverEngine.
+
+  If you have existing custom `FactRetrieverRegistry` implementations, you'll need to remove the `retrievers` member and make all the methods async.
+
+### Patch Changes
+
+- bcc122c46d: The `FactRetriever` model has been extended by adding optional title and description fields, allowing you to display them in the UI.
+- Updated dependencies
+  - @backstage/backend-common@0.14.1-next.3
+  - @backstage/catalog-client@1.0.4-next.2
+  - @backstage/catalog-model@1.1.0-next.3
+  - @backstage/plugin-tech-insights-node@0.3.2-next.1
+
 ## 0.5.0-next.2
 
 ### Minor Changes
